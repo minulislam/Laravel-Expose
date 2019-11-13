@@ -2,7 +2,8 @@
 
 namespace SCollins\LaravelExpose\Middleware;
 
-use Cache;
+
+use Illuminate\Support\Facades\Cache;
 use Closure;
 use SCollins\LaravelExpose\Jobs\ExposeRequest;
 

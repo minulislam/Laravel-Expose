@@ -2,7 +2,7 @@
 
 namespace SCollins\LaravelExpose;
 
-use Log;
+use Illuminate\Support\Facades\Log;
 use Expose\Queue;
 use Expose\Manager;
 use Expose\Notify\Email;
